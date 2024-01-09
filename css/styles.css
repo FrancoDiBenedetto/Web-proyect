@@ -7,7 +7,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(14, 15, 15);
+
 }
 
 ul,
@@ -86,7 +86,7 @@ header {
 }
 
 
-.container {
+.container-port {
     background-color: rgb(243, 242, 209);
     padding: 25px;
 }
@@ -95,7 +95,8 @@ header {
 
 /* -----------------------------Body seccion 3 servicios------------------------------ */
 .servicios {
-    background-color: #e4d9cd;
+    background-color: #e4e4dd;
+
 }
 
 .servicios_titulo {
@@ -106,13 +107,17 @@ header {
     margin-top: 2rem;
 }
 
+
+
 .imagen_card {
-    margin-top: 20px !important;
+    border-radius: 1rem;
+    margin-top: 15px;
 }
 
 .card {
 
-    background-color: rgb(228, 189, 178);
+
+    background-color: rgb(170, 170, 131);
 }
 
 
@@ -127,6 +132,19 @@ header {
 
 footer {
     background-color: rgb(243, 242, 209) !important;
+}
+
+.footer-nav {
+    background-color: rgb(72, 89, 125) !important;
+    padding: 1.4rem;
+}
+
+.navfooter__ul a {
+    color: white !important;
+}
+
+.ubicacion {
+    color: white !important;
 }
 
 .imagen-footer {

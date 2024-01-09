@@ -32,16 +32,16 @@
                         <a class="nav-link" href="../index1.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/quienesomos.html">Quienes Somos</a>
+                        <a class="nav-link" href="./quienesomos.html">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/ubicacion.html">Ubicación</a>
+                        <a class="nav-link" href="./ubicacion.html">Ubicación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -62,46 +62,63 @@
     </header>
 
 
-    <main>
+    <main class="main">
 
-        <div class="container">
+        <section class="quienesomos">
+            <div class="container">
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-xs-12 text-center">
-                    <h1>Quienes Somos</h1>
-                    <img class="arquitectos__imagen mt-4" class="d-block w-50" src="../img/arquitectos.jpg" alt="">
-                    <p class="quienesomos__pa mt-3">
-                        En Arquitectos D & V, fusionamos la pasión por la arquitectura y el diseño en una colaboración
-                        entre
-                        dos profesionales apasionados. Nos dedicamos a la creación de espacios funcionales que se
-                        adaptan a
-                        diversos estilos de vida, reflejando la identidad única de nuestros clientes.
-                    </p>
+                    <div class="col-xs-12 text-center">
+                        <h1 class="titulo__quienesomos mt-5">¿Quienes Somos?</h1>
+                        <p class="quienesomos__pa mb-4 mt-3 r">
+                            En Arquitectos D & V, fusionamos la pasión por la arquitectura y el diseño en una
+                            colaboración
+                            entre
+                            dos profesionales apasionados. Nos dedicamos a la creación de espacios funcionales que se
+                            adaptan a
+                            diversos estilos de vida, reflejando la identidad única de nuestros clientes.
+                        </p>
+
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h4 class="nombres"> Arq. Silvina Valdés</h4>
+                            <h4 class="nombres"> Arq. Pablo Di Benedetto</h4>
+                        </div>
+                        <img class="arquitectos__imagen mt-4 mb-5" class="d-block w-50" src="../img/personas.jpg.jpg"
+                            alt="">
+
+                    </div>
+
                 </div>
+                <div>
+        </section>
 
-                <section class="anuncio">
+
+
+
+
+
+
+        <section class="anuncio">
+
+            <div class="container">
+
+                <div class="row">
 
                     <section class="anuncio__section">
 
                         <img src="../img/casa14.jpg" class="img-fluid mt-5" alt="...">
 
                         <div class="anuncio__cartel">
-                            <h2 class="anuncio__cartelh2">Cada proyecto, una historia que se convierte en realidad</h2>
+                            <h2 class="anuncio__cartelh2 text-center">"Cada proyecto, una historia que se convierte
+                                en
+                                realidad"</h2>
+
                         </div>
                     </section>
-                </section>
-
+                </div>
             </div>
-
-        </div>
-
-
-
-
-
-
-
+        </section>
 
 
 
@@ -114,7 +131,7 @@
 
             <div class="row">
 
-                <div class=" col col-lg-6 col-md-6 col-xs-12 first_col mt-5">
+                <div class=" col col-lg-6 col-md-6 col-xs-12 first_col ">
                     <h2 class="text-center mt-5"> Contacto </h2>
                     <form class="p-4 mt-0">
                         <div class="mb-3">
@@ -144,35 +161,37 @@
 
                 <div class="col last_row col-lg-12 col-md-12 col-xs-12">
 
-                    <div class="row row-cols-1 row-cols-md-3  text-black" class="footer-nav">
+                    <div class="footer-nav">
+                        <div class="row row-cols-1 row-cols-md-3  text-black" class="footer-nav">
 
-                        <div class="col-lg-4 mt-4 text-center" class="nav-footer">
-                            <h4 class="navegacion-footer"> Navegación </h4>
-                            <ul class="navfooter__ul">
-                                <li><a href="./index.html">Inicio</a></li>
-                                <li><a href="./pages/quienesomos.html">Quienes Somos</a></li>
-                                <li><a href="./pages/portfolio.html">Portfolio</a></li>
-                                <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
-                                <li><a href="./pages/contacto.html">Contacto</a></li>
-                            </ul>
+                            <div class="col-lg-4 mt-2 text-center" class="nav-footer">
+                                <ul class="navfooter__ul">
+                                    <li><a href="../index.html">Inicio</a></li>
+                                    <li><a href=".quienesomos.html">Quienes Somos</a></li>
+                                    <li><a href=".portfolio.html">Portfolio</a></li>
+                                    <li><a href="./ubicacion.html">Ubicacion</a></li>
+                                    <li><a href=".contacto.html">Contacto</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-4 text-lg-start mt-2 text-center">
+
+                                <ul>
+                                    <li>Av. Gauss 5760- Local 2 - Córdoba X5021FGY </li>
+                                    <li>Tel. (03543) 443242 - Cel. (0351) 155-574330</li>
+                                    <li>email:estudiodibenedetto@gmail.com </li>
+                                    <li> Instragram </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-4 text-center">
+                                <img src="../img/logo.jpg.gif" alt="">
+                            </div>
+
+
+
                         </div>
-
-                        <div class="col-lg-4 mt-2 text-center">
-                            <h4 class="text-center"> Ubicación </h4>
-                            <ul>
-                                <li>Av. Gauss 5760- Local 2 - Córdoba X5021FGY </li>
-                                <li>Tel. (03543) 443242 - Cel. (0351) 155-574330</li>
-                                <li>email:estudiodibenedetto@gmail.com </li>
-                                <li> Instragram </li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-4 text-center">
-                            <img src="../img/logo.jpg.gif" alt="">
-                        </div>
-
                     </div>
-
                 </div>
 
 
