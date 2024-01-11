@@ -5,126 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <title>Arquitectos D & V</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom justify-content-end ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="imagenlogo" src="../img/logo.jpg.gif" alt="Bootstrap">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index1.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienesomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ubicacion.html">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
 
-    <head>
-        <h1 class="color-titulo">Arquitectos D & V</h1>
-        <nav>
-            <ul class="ul-class">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./quienesomos.html">Quienes Somos</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./ubicacion.html">Ubicacion</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-            <div>
-                <form action="">
-                    <label for="buscar-pag">Buscar:</label>
-                    <input type="search" name="" id="buscar-pag">
-                </form>
-            </div>
-
-
-        </nav>
-    </head>
-    <main>
-
-        <section>
-
-            <div>
-                <h3>Contáctenos</h3>
-            </div>
-            <form action="">
-                <div>
-                    <label for="nombre-usuario">Ingrese su nombre y apellido:</label>
-                    <input type="text" id="nombre-usuario">
-                </div>
-                <div>
-                    <label for="email-usuario">Ingrese su email:</label>
-                    <input type="email" id="email-usuario">
-                </div>
-                <div>
-                    <label for="texto-area">Ingrese su comentario:</label>
-                    <textarea name="" id="texto-area" cols="30" rows="10"></textarea>
-                </div>
-                <input type="submit" value="Enviar">
-            </form>
-
-
-            <div>
-                <h3>
-                    Nuestro Equipo
-                </h3>
-                <h5>
-                    Córdoba, Argentina
-                </h5>
-                <ul>
-                    <li>Av. Gauss 5760- Local 2 - Córdoba X5021FGY </li>
-                    <li>Tel. (03543) 443242 - Cel. (0351) 155-574330</li>
-                    <li>email:estudiodibenedetto@gmail.com </li>
                 </ul>
 
-            </div>
 
-            <img src="../img/house-arqui.jpg" alt="planos">
+            </div>
+        </div>
+    </nav>
+    </header>
+
+
+    <main class="main">
+
+        <section class="pag_contacto">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-center mt-5">
+                        <h3 class="col contact_1 mt-2">
+                            Nuestro Equipo
+                        </h3>
+                        <h5>
+                            Córdoba, Argentina
+                        </h5>
+                        <ul class="lista_contacto" class="text-center">
+                            <li>Av. Gauss 5760- Local 2 - Córdoba X5021FGY </li>
+                            <li>Tel. (03543) 443242 - Cel. (0351) 155-574330</li>
+                            <li>email:estudiodibenedetto@gmail.com</li>
+                        </ul>
+
+                        <img src="../img/plano.jpg" class="plano" class="img-fluid" alt="planos">
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-12 col-xs-12">
+                        <h2 class="text-center mt-5"> Contacto </h2>
+                        <form class="p-4 mt-0">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Ingrese su nombre</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Roberto Gomez">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label"> Ingrese su email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Su comentario</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary"> Enviar </button>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+            </div>
 
         </section>
 
-        <section>
 
-            <div class="Casa Rufina">
 
-            </div>
-
-            <div>
-                <h3>Casa en La Rufina</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam commodi, nam deleniti,
-                    enim saepe nemo neque, alias a amet ipsam nisi cupiditate corrupti placeat! Ut enim aspernatur a
-                    vero.</p>
-            </div>
-
-            <hr>
-
-        </section>
 
     </main>
 
-    <footer id="foote-index">
-        <hr>
+    <footer>
 
-        <h3> Navegación</h3>
+        <div class="container-fluid" class="foooter">
 
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./quienesomos.html">Quienes Somos</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./ubicacion.html">Ubicacion</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
+            <div class="row">
 
-                </ul>
-            </nav>
+
+                <div class="col-lg-6 col-xs-12">
+                    <img src="../img/casap10.jpeg" class="imagen-footer mt-5 mb-4">
+                </div>
+
+                <div class="col-lg-6 col-xs-12">
+                    <img src="../img/casaportfolio4.jfif" class="imagen-footer mt-5 mb-4" alt="">
+                </div>
+
+
+                <div class="col col-lg-12 col-md-12 col-xs-12">
+                    <div class="footer-nav">
+                        <div class="row row-cols-1 row-cols-md-3 ">
+
+                            <div class="col-lg-6 mt-2 text-center" class="nav-footer">
+                                <ul class="navfooter__ul">
+                                    <li><a href="./index.html">Inicio</a></li>
+                                    <li><a href="./pages/quienesomos.html">Quienes Somos</a></li>
+                                    <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                                    <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
+                                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                                </ul>
+                            </div>
+
+
+
+                            <div class="col-lg-6 d-flex flex-row align-items-center text-center " class="w-50">
+                                <img src="../img/logo.jpg.gif" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
-
-        <div>
-            <H5> Seguínos en</H5>
-            <ul>
-                <li>Facebook</li>
-                <li>Instragram</li>
-                <li>Twitter</li>
-            </ul>
-        </div>
-
-        <img src="../img/logo.jpg.gif" alt="">
     </footer>
 
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
 </body>
 
