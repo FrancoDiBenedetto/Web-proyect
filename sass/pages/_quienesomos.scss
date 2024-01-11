@@ -1,5 +1,5 @@
 .quienesomos {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
 
 }
@@ -23,20 +23,24 @@
 }
 
 .nombres {
+    font-family: $ff-Times;
     font-size: 1.4rem;
     color: white;
-    background-color: rgb(60, 60, 105);
+    padding: .5rem;
+    background-color: $primary-color;
     border-radius: .3rem;
     max-width: 500px;
 }
 
 .anuncio {
-    background-color: rgb(209, 205, 199);
+    background-color: rgb(253, 252, 251);
+    border-radius: .5rem;
 }
 
 .anuncio__cartelh2 {
     font-size: medium;
     position: relative;
+    max-width: 1280px;
     bottom: 4rem;
     background-color: aliceblue;
     padding: .5rem;

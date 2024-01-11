@@ -44,11 +44,13 @@ img {
 }
 
 .card {
-  background-color: rgb(170, 170, 131);
+  background-color: rgb(72, 89, 125);
+  color: aliceblue;
+  font-family: Merriweather, Times, serif;
 }
 
 .titulocarrusel {
-  font-family: "Merryweahter", sans-serif;
+  font-family: Merriweather, Times, serif;
 }
 
 #carouselindex .carousel-item img {
@@ -57,12 +59,13 @@ img {
 }
 
 footer {
-  background-color: rgb(243, 242, 209) !important;
+  background-color: rgb(220, 223, 228) !important;
+  font-family: Merriweather, Times, serif;
 }
 
 .footer-nav {
   background-color: rgb(72, 89, 125) !important;
-  padding: 1.4rem;
+  padding: 1rem;
 }
 
 .navfooter__ul a {
@@ -82,7 +85,7 @@ footer {
 
 header {
   background-color: rgb(72, 89, 125);
-  padding: 1rem;
+  padding: 0.4rem;
 }
 
 .nav-item {
@@ -95,10 +98,14 @@ header {
 }
 
 .imagenlogo {
-  background-color: rgb(41, 41, 111);
+  background-color: rgb(72, 89, 125);
   padding: 0.7rem;
   width: 60%;
   height: 40%;
+}
+
+#fondo {
+  background-color: beige;
 }
 
 #portfolio .col-lg-4 {
@@ -108,6 +115,7 @@ header {
 #portfolio img {
   width: 100%;
   height: 300px;
+  border-radius: 0.5rem;
 }
 
 .portfolio__titulo {
@@ -138,6 +146,10 @@ header {
   max-height: 300px;
 }
 
+#galeria {
+  font-family: Merriweather, Times, serif;
+}
+
 #galeria .col-lg-4 {
   padding: 1.5rem;
 }
@@ -151,8 +163,17 @@ header {
   padding: 3rem;
 }
 
+#fondo1 {
+  font-family: Merriweather, Times, serif;
+}
+
+#noticias {
+  font-family: Merriweather, Times, serif;
+  text-decoration: underline;
+}
+
 .quienesomos {
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
   background-repeat: no-repeat;
 }
 
@@ -174,20 +195,24 @@ header {
 }
 
 .nombres {
+  font-family: Merriweather, Times, serif;
   font-size: 1.4rem;
   color: white;
-  background-color: rgb(60, 60, 105);
+  padding: 0.5rem;
+  background-color: rgb(72, 89, 125);
   border-radius: 0.3rem;
   max-width: 500px;
 }
 
 .anuncio {
-  background-color: rgb(209, 205, 199);
+  background-color: rgb(253, 252, 251);
+  border-radius: 0.5rem;
 }
 
 .anuncio__cartelh2 {
   font-size: medium;
   position: relative;
+  max-width: 1280px;
   bottom: 4rem;
   background-color: aliceblue;
   padding: 0.5rem;
@@ -196,8 +221,8 @@ header {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-pag_contacto {
-  background-color: rgb(236, 236, 236);
+.pag_contacto {
+  background-color: rgb(255, 255, 255);
 }
 
 .contacto1 {

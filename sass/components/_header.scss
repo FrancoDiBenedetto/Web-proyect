@@ -1,11 +1,11 @@
 header {
-    background-color: rgb(72, 89, 125);
-    padding: 1rem;
+    background-color: $primary-color;
+    padding: .4rem;
 }
 
 .nav-item {
     color: black;
-    font-family: Merriweather, Times, serif;
+    font-family: $ff-Times;
 }
 
 .navbar-nav {
@@ -14,7 +14,7 @@ header {
 
 
 .imagenlogo {
-    background-color: rgb(41, 41, 111);
+    background-color: $primary-color;
     padding: .7rem;
     width: 60%;
     height: 40%;

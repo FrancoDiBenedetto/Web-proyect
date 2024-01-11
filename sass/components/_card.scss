@@ -4,5 +4,7 @@
 }
 
 .card {
-    background-color: rgb(170, 170, 131);
+    background-color: $primary-color;
+    color: aliceblue;
+    font-family: $ff-Times;
 }
