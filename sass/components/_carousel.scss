@@ -1,0 +1,10 @@
+.titulocarrusel {
+    font-family: $ff-Times;
+}
+
+
+#carouselindex .carousel-item img {
+
+    max-height: 500px;
+    object-fit: cover;
+}

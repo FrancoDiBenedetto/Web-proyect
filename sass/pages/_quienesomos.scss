@@ -1,0 +1,50 @@
+.quienesomos {
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+
+}
+
+.titulo__quienesomos {
+
+    font-family: 'Times New Roman', Times, serif
+}
+
+.arquitectos__imagen {
+    border-radius: .5rem;
+    max-width: 65%;
+    min-width: 60%;
+}
+
+.quienesomos__pa {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombres {
+    font-family: $ff-Times;
+    font-size: 1.4rem;
+    color: white;
+    padding: .5rem;
+    background-color: $primary-color;
+    border-radius: .3rem;
+    max-width: 500px;
+}
+
+.anuncio {
+    background-color: rgb(253, 252, 251);
+    border-radius: .5rem;
+}
+
+.anuncio__cartelh2 {
+    font-size: medium;
+    position: relative;
+    max-width: 1280px;
+    bottom: 4rem;
+    background-color: aliceblue;
+    padding: .5rem;
+    font-weight: bold;
+    color: rgb(57, 57, 161);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

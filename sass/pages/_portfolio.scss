@@ -1,0 +1,34 @@
+#galeria img {
+    width: 100%;
+    border-radius: 5px;
+    max-height: 300px;
+}
+
+#galeria {
+
+    font-family: $ff-Times;
+
+}
+
+#galeria .col-lg-4 {
+    padding: 1.5rem;
+
+}
+
+#galeria .col-lg-6 {
+    padding: 1.5rem;
+}
+
+#noticias {
+    width: 100%;
+    padding: 3rem;
+}
+
+#fondo1 {
+    font-family: $ff-Times;
+}
+
+#noticias {
+    font-family: $ff-Times;
+    text-decoration: underline;
+}

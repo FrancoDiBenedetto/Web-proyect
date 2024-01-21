@@ -1,0 +1,23 @@
+header {
+    background-color: $primary-color;
+    padding: .4rem;
+
+}
+
+#nav-item {
+    color: black;
+    font-family: $ff-Times;
+}
+
+
+.navbar-nav {
+    gap: 1rem;
+}
+
+
+.imagenlogo {
+    background-color: $primary-color;
+    padding: .7rem;
+    width: 60%;
+    height: 40%;
+}
