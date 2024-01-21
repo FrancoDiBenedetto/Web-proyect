@@ -1,12 +1,14 @@
 header {
     background-color: $primary-color;
     padding: .4rem;
+
 }
 
-.nav-item {
+#nav-item {
     color: black;
     font-family: $ff-Times;
 }
+
 
 .navbar-nav {
     gap: 1rem;
