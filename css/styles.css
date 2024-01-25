@@ -51,6 +51,8 @@ img {
 
 .titulocarrusel {
   font-family: Merriweather, Times, serif;
+  font-weight: bold;
+  color: rgb(158, 146, 146);
 }
 
 #carouselindex .carousel-item img {
@@ -61,6 +63,10 @@ img {
 footer {
   background-color: rgb(220, 223, 228) !important;
   font-family: Merriweather, Times, serif;
+}
+
+.footer-paginas {
+  font-size: small;
 }
 
 .footer-nav {
@@ -80,13 +86,20 @@ footer {
 .imagen-footer {
   border-radius: 10px;
   margin-top: 15px;
-  max-height: 300px;
+  max-height: 400px;
   width: 100%;
+  max-width: 680px;
 }
 
 header {
   background-color: rgb(72, 89, 125);
   padding: 0.4rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  font-family: Merriweather, Times, serif;
+  color: #19446e;
 }
 
 #nav-item {
@@ -96,6 +109,9 @@ header {
 
 .navbar-nav {
   gap: 1rem;
+  font-size: 1rem;
+  font-family: Merriweather, Times, serif;
+  color: #19446e;
 }
 
 .imagenlogo {
@@ -120,7 +136,7 @@ header {
 }
 
 .portfolio__titulo {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Merriweather, Times, serif;
 }
 
 .container-port {
@@ -135,10 +151,7 @@ header {
 
 .servicios_titulo {
   margin-bottom: 2rem;
-}
-
-.titulo_ser {
-  margin-top: 2rem;
+  font-family: Merriweather, Times, serif;
 }
 
 #galeria img {
@@ -211,15 +224,30 @@ header {
 }
 
 .anuncio__cartelh2 {
-  font-size: medium;
   position: relative;
   max-width: 1280px;
   bottom: 4rem;
-  background-color: aliceblue;
   padding: 0.5rem;
   font-weight: bold;
-  color: rgb(57, 57, 161);
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(220, 223, 228);
+  font-family: Merriweather, Times, serif;
+}
+@media (max-width: 1200px) {
+  .anuncio__cartelh2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .anuncio__cartelh2 {
+    bottom: 3rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .anuncio__cartelh2 {
+    bottom: 2rem;
+    font-size: 0.7rem;
+  }
 }
 
 .pag_contacto {
@@ -231,10 +259,11 @@ header {
 }
 
 .plano {
-  width: 350px;
-  border-color: black;
-  max-width: 600px;
-  border-radius: 1rem;
+  min-width: 100px;
+  border: 1px solid black;
+  padding: 0.2rem;
+  max-width: 320px;
+  border-radius: 0.2rem;
   box-sizing: border-box;
   box-shadow: inset;
   margin-bottom: 1rem;
@@ -249,6 +278,23 @@ header {
   border-radius: 1rem;
   width: 50%;
   left: 100px;
+}
+
+.contacto {
+  font-family: Merriweather, Times, serif;
+}
+
+.contact_1 {
+  font-family: Merriweather, Times, serif;
+}
+
+.tituloubicacion {
+  font-family: Merriweather, Times, serif;
+}
+
+.tituloubicacion__lugar {
+  font-size: 20px;
+  font-family: Merriweather, Times, serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

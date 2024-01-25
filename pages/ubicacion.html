@@ -70,12 +70,12 @@
 
         <div class="row">
             <div class="col-lg-12 text-center mt-5">
-                <h3>
+                <h1 class="tituloubicacion">
                     Ubicación
-                </h3>
-                <h5>
+                </h1>
+                <p class="tituloubicacion__lugar">
                     Córdoba, Argentina
-                </h5>
+                </p>
                 <ul>
                     <li>Av. Gauss 5760- Local 2 - Córdoba X5021FGY </li>
                     <li>Tel. (03543) 443242 - Cel. (0351) 155-574330</li>
@@ -101,8 +101,9 @@
                 <img src="../img/casa2.jpg" class="img-fluid" alt="casita">
             </div>
 
-            <div class="text-center mb-5">
-                <h4>Exploramos límites, creamos posibilidades.</h4>
+            <div>
+                <h2 class="anuncio__cartelh2 text-end">Exploramos límites, creamos
+                    posibilidades.</h2>
             </div>
         </div>
     </section>
@@ -110,14 +111,14 @@
 
 </main>
 
-<footer>
+<footer class="footer-paginas">
 
     <div class="container-fluid" class="foooter">
 
         <div class="row">
 
             <div class=" col col-lg-6 col-md-6 col-xs-12 first_col">
-                <h2 class="text-center mt-5"> Contacto </h2>
+                <h3 class="text-center mt-5"> Contacto </h3>
                 <form class="p-4 mt-0">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Ingrese su nombre</label>
@@ -139,22 +140,23 @@
                 </form>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-xs-12 align-items-center text-center">
                 <img src="../img/casap10.jpeg" class="imagen-footer mt-5 mb-4" class="img-fluid ">
             </div>
 
 
-            <div class="col col-lg-12 col-md-12 col-xs-12">
+            <div class=" col col-lg-12 col-md-12 col-xs-12">
                 <div class="footer-nav">
-                    <div class="row row-cols-1 row-cols-md-3 ">
+                    <div class="row">
 
-                        <div class="col-lg-4 mt-4 text-center" class="nav-footer">
-                            <ul class="navfooter__ul">
-                                <li><a href="../index1.html">Inicio</a></li>
-                                <li><a href="./quienesomos.html">Quienes Somos</a></li>
-                                <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="./ubicacion.html">Ubicacion</a></li>
-                                <li><a href="./contacto.html">Contacto</a></li>
+                        <div class="col-lg-4  mt-4 text-center d-flex flex-column" class="nav-footer">
+                            <ul
+                                class="navfooter__ul d-flex flex-column flex-lg-row flex-md-row flex-sm-column flex-xs-column justify-content-center align-items-center">
+                                <li><a href="./index.html">Inicio</a></li>
+                                <li><a href="./pages/quienesomos.html">Quienes Somos</a></li>
+                                <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                                <li><a href="./pages/ubicacion.html">Ubicacion</a></li>
+                                <li><a href="./pages/contacto.html">Contacto</a></li>
                             </ul>
                         </div>
 
@@ -170,8 +172,14 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 d-flex flex-row align-items-center text-center " class="w-50">
-                            <img src="../img/logo.jpg.gif" alt="">
+                        <div class="col-lg-4 d-flex flex-row align-items-center text-center">
+
+                            <div class="imagen_fondo">
+                                <img src="../img/logo.jpg.gif" class="img-fluid max-width-400px"
+                                    alt="Imagen footer logo">
+                            </div>
+
+
                         </div>
 
                     </div>

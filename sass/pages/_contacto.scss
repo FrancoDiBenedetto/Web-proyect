@@ -8,10 +8,11 @@
 }
 
 .plano {
-    width: 350px;
-    border-color: black;
-    max-width: 600px;
-    border-radius: 1rem;
+    min-width: 100px;
+    border: 1px solid black;
+    padding: .2rem;
+    max-width: 320px;
+    border-radius: .2rem;
     box-sizing: border-box;
     box-shadow: inset;
     margin-bottom: 1rem;
@@ -26,4 +27,13 @@
     border-radius: 1rem;
     width: 50%;
     left: 100px;
+}
+
+.contacto {
+    font-family: $ff-Times;
+}
+
+.contact_1 {
+
+    font-family: $ff-Times;
 }

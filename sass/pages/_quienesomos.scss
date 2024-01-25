@@ -38,13 +38,25 @@
 }
 
 .anuncio__cartelh2 {
-    font-size: medium;
     position: relative;
     max-width: 1280px;
     bottom: 4rem;
-    background-color: aliceblue;
     padding: .5rem;
     font-weight: bold;
-    color: rgb(57, 57, 161);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: $secondary-color;
+    font-family: $ff-Times;
+
+    @media (max-width: 1200px) {
+        font-size: 1.5rem; // Tamaño para pantallas medianas
+    }
+
+    @media (max-width: 768px) {
+        bottom: 3rem;
+        font-size: 1rem; // Tamaño para pantallas pequeñas
+    }
+
+    @media (max-width: 450px) {
+        bottom: 2rem;
+        font-size: .7rem; // Tamaño para pantallas muy pequeñas
+    }
 }

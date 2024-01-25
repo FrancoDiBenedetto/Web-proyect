@@ -10,7 +10,7 @@
 
 .portfolio__titulo {
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $ff-Times;
 }
 
 
@@ -29,8 +29,5 @@
 
 .servicios_titulo {
     margin-bottom: 2rem;
-}
-
-.titulo_ser {
-    margin-top: 2rem;
+    font-family: $ff-Times;
 }

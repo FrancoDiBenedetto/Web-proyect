@@ -4,6 +4,13 @@ header {
 
 }
 
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-family: $ff-Times;
+    color: #19446e;
+}
+
 #nav-item {
     color: black;
     font-family: $ff-Times;
@@ -12,6 +19,9 @@ header {
 
 .navbar-nav {
     gap: 1rem;
+    font-size: 1rem;
+    font-family: $ff-Times;
+    color: #19446e;
 }
 
 
