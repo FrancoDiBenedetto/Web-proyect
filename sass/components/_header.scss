@@ -2,32 +2,32 @@ header {
     background-color: $primary-color;
     padding: .4rem;
 
-}
+    .nav-item {
+        color: black;
+        font-family: $ff-Times;
+    }
 
+    .navbar-nav {
+        gap: 1rem;
+        font-size: 1rem;
+        font-family: $ff-Times;
+        color: #19446e;
 
-.navbar-nav .nav-link {
-    font-size: 1rem;
-    font-family: $ff-Times;
-    color: #19446e;
-}
+        .nav-link {
+            font-size: 1rem;
+            font-family: $ff-Times;
+            color: #19446e;
 
-#nav-item {
-    color: black;
-    font-family: $ff-Times;
-}
+            &:hover {
+                color: #d3d3d3; // Color gris claro cuando se hace hover
+            }
+        }
+    }
 
-
-.navbar-nav {
-    gap: 1rem;
-    font-size: 1rem;
-    font-family: $ff-Times;
-    color: #19446e;
-}
-
-
-.imagenlogo {
-    background-color: $primary-color;
-    padding: .7rem;
-    width: 60%;
-    height: 40%;
+    .imagenlogo {
+        background-color: $primary-color;
+        padding: 0.7rem;
+        width: 60%;
+        height: 40%;
+    }
 }

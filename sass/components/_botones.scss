@@ -1,10 +1,10 @@
 .btn-primary {
     background-color: #e9bf8f;
     border: #e9bf8f;
-}
 
-.btn-primary:hover {
-    background-color: black;
+    &:hover {
+        background-color: black;
+    }
 }
 
 .form-control {
