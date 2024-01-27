@@ -1,12 +1,11 @@
 .titulocarrusel {
     font-family: $ff-Times;
     font-weight: bold;
-    color: rgb(158, 146, 146);
+    color: rgb(255, 255, 255);
 }
 
 
 #carouselindex .carousel-item img {
-
     max-height: 500px;
     object-fit: cover;
 }

@@ -51,7 +51,7 @@ img {
 .titulocarrusel {
   font-family: Merriweather, Times, serif;
   font-weight: bold;
-  color: rgb(158, 146, 146);
+  color: rgb(255, 255, 255);
 }
 
 #carouselindex .carousel-item img {
@@ -75,7 +75,7 @@ footer .footer__nav .ubicacion {
   color: white !important;
 }
 
-.footer-paginas {
+.footerpaginas {
   font-size: small;
 }
 
@@ -181,6 +181,10 @@ header .imagenlogo {
 #noticias {
   font-family: Merriweather, Times, serif;
   text-decoration: underline;
+}
+
+.titulocasas {
+  font-size: 20px;
 }
 
 .quienesomos {
