@@ -129,7 +129,7 @@ header .imagenlogo {
   border-radius: 0.5rem;
 }
 #portfolio .col-lg-4 .container-port {
-  background-color: rgb(243, 242, 209);
+  background-color: rgb(220, 223, 228);
   padding: 25px;
 }
 
@@ -193,7 +193,7 @@ header .imagenlogo {
 }
 
 .titulo__quienesomos {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Merriweather, Times, serif;
 }
 
 .arquitectos__imagen {
@@ -203,7 +203,7 @@ header .imagenlogo {
 }
 
 .quienesomos__pa {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Merriweather, Times, serif;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -252,7 +252,7 @@ header .imagenlogo {
 }
 
 .pag_contacto {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(220, 223, 228);
 }
 
 .contacto1 {
